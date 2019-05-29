@@ -1,6 +1,12 @@
 {
   "pages": [
-    "pages/index/main"
+    "pages/index/main",
+    "pages/category/main",
+    "pages/cart/main",
+    "pages/goods/main",
+    "pages/list/main",
+    "pages/center/main",
+    "pages/order/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -21,20 +27,20 @@
       "selectedIconPath": "static/tabs/icon_home_active@3x.png"
       }, 
       {
-      "text": "订单",
-      "pagePath": "pages/index/main",
+      "text": "分类",
+      "pagePath": "pages/category/main",
       "iconPath": "static/tabs/icon_category@3x.png",
       "selectedIconPath": "static/tabs/icon_category_active@3x.png"
       }, 
       {
       "text": "购物车",
-      "pagePath": "pages/index/main",
+      "pagePath": "pages/cart/main",
       "iconPath": "static/tabs/icon_cart@3x.png",
       "selectedIconPath": "static/tabs/icon_cart_active@3x.png"
       }, 
       {
       "text": "我的",
-      "pagePath": "pages/index/main",
+      "pagePath": "pages/center/main",
       "iconPath": "static/tabs/icon_user@3x.png",
       "selectedIconPath": "static/tabs/icon_user_active@3x.png"
       }
